@@ -63,18 +63,40 @@ form > div.campo{
     margin: 5px 0px;
     
 }
-div.campo > label{
+form > div.campo > label{
     display: none;
+    
 }
+
+form > div.campo > span{
+    color: #03A688;
+    font-size: 1.5em;
+    width: 40px;
+    height: 100%;
+    padding: 5px;
+}
+form > div.campo > input{
+    font-size: 1em;
+    height: 100%;
+    border: 1px solid #03A688 ;
+    
+}
+form > div> input{
+    
+}
+
 form > input[type=submit]{
     display: block;
     font-size: 1em;
-    width: 100%;
+    width: 90%;
     height: 40px;
     background-color:#03A688 ;
     color: white;
     border: none;
+    margin-bottom: 5px;
+    margin-left: 20px;
     border-radius: 5px;
+    
 }
 form > input[type=submit]:hover{
     background-color: #026150;
@@ -84,9 +106,9 @@ form > a.botao{
     display: block;
     text-align: center;
     font-size: 1em;
-    width: 100%;
+    width: 90%;
     height: 40px;
-    padding-top: 7px;
+    margin-left: 20px;
     background-color: #ffffff;
     color: #026150;
     border: 1px solid #03A688;
@@ -94,8 +116,10 @@ form > a.botao{
     text-decoration: none;
 
 }
-form > a.botao > i{
+form > a.botao > span{
+    padding-top: 10px;
     font-size: 0.8em;
+    
 }
 form > a.botao:hover{
     background-color:#03e0b8;
