@@ -82,7 +82,7 @@ form > div.campo > input{
     
 }
 form > div> input{
-    
+    width: 170px;
 }
 
 form > input[type=submit]{
