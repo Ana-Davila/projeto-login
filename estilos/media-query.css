@@ -17,9 +17,19 @@
     float: right;
     width: 70%;
    }
-   form > div> input{
-    width: 415px;
+   form > div.campo> input{
+    width: calc(88%);
+    transform: translateX(50px);
+    transform: translateY(-10px);
+    
     }
+    form > div.campo > span {
+        color: #ffffff;
+        font-size: 1.9em;
+        width: 40px;
+        padding: 5px;
+    }
+   
 }
 @media screen and (min-width: 992px){
     body{
@@ -47,8 +57,11 @@
         font-size: 2em;
         margin-bottom: 10px;
     }
-    form > div> input{
-        width: 381px;
+    input#ilogin {
+        width: 380px;
+    }
+    input#isenha {
+        width: 380px;
     }
     form > input[type=submit]{
         margin-top: 40px;
